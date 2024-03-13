@@ -109,15 +109,7 @@ def predict(input_img, ver):
 
 title="Image to Line Drawings - Complex and Simple Portraits and Landscapes"
 examples=[
-['01.jpeg', 'Simple Lines'], ['02.jpeg', 'Simple Lines'], ['03.jpeg', 'Simple Lines'],
-['07.jpeg', 'Complex Lines'], ['08.jpeg', 'Complex Lines'], ['09.jpeg', 'Complex Lines'],
-['10.jpeg', 'Simple Lines'], ['11.jpeg', 'Simple Lines'], ['12.jpeg', 'Simple Lines'],
-['01.jpeg', 'Complex Lines'], ['02.jpeg', 'Complex Lines'], ['03.jpeg', 'Complex Lines'],
-['04.jpeg', 'Simple Lines'], ['05.jpeg', 'Simple Lines'], ['06.jpeg', 'Simple Lines'],
-['07.jpeg', 'Simple Lines'], ['08.jpeg', 'Simple Lines'], ['09.jpeg', 'Simple Lines'],
-['04.jpeg', 'Complex Lines'], ['05.jpeg', 'Complex Lines'], ['06.jpeg', 'Complex Lines'],
-['10.jpeg', 'Complex Lines'], ['11.jpeg', 'Complex Lines'], ['12.jpeg', 'Complex Lines'],
-['Upload Wild Horses 2.jpeg', 'Complex Lines']
+['01.jpeg', 'Simple Lines']
 ]
 
 iface = gr.Interface(predict, [gr.Image(type='filepath'),
